@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Yq.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Yq.WebApi.Controllers.ValuesController">
+            <summary>
+            默认模块
+            </summary>
+        </member>
+        <member name="T:Yq.WebApi.Model.AutomaticInjection">
+            <summary>
+            自动注入依赖关系扩展类
+            </summary>
+        </member>
+        <member name="M:Yq.WebApi.Model.AutomaticInjection.ResolveAllTypes(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String[])">
+            <summary>  
+            自动注入依赖关系
+            </summary>  
+            <param name="assemblyNames">需要扫描的项目名称集合</param>
+        </member>
+        <member name="T:Yq.WebApi.Model.MyJsonResult">
+            <summary>
+            所有接口都要返回这个类型的对象
+            
+            </summary>
+        </member>
+        <member name="P:Yq.WebApi.Model.MyJsonResult.Code">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="P:Yq.WebApi.Model.MyJsonResult.Message">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Yq.WebApi.Model.MyJsonResult.Result">
+            <summary>
+            返回的数据
+            </summary>
+        </member>
+        <member name="F:Yq.WebApi.Model.State.Ok">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:Yq.WebApi.Model.State.Error">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="T:Yq.WebApi.SwaggerHelp.SwaggerDocTag">
+            <summary>
+            Swagger注释帮助类
+            </summary>
+        </member>
+        <member name="M:Yq.WebApi.SwaggerHelp.SwaggerDocTag.Apply(Swashbuckle.AspNetCore.Swagger.SwaggerDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            添加附加注释
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Yq.WebApi.SwaggerHelp.SwaggerDocTag.GetControllerDesc">
+            <summary>
+            从xml注释中读取控制器注释
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

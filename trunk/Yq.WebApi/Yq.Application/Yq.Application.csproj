@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DepartmentApp\Dtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yq.Domain\Yq.Domain.csproj" />
+    <ProjectReference Include="..\Yq.EntityFrameworkCore\Yq.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
